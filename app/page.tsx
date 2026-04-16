@@ -42,7 +42,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-50 dark:bg-zinc-900">
+    <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: "url('/file_1774810539544.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow-md p-8 w-full max-w-sm flex flex-col gap-5">
         <h1 className="text-2xl font-bold text-center text-zinc-800 dark:text-zinc-100">時給計算</h1>
 
